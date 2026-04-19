@@ -19,4 +19,18 @@ This special edition is streamlined for maximum efficiency:
 Run this single command to install the professional suite:
 
 ```bash
+
 git clone [https://github.com/hunteroxe1-ai/HUNTER-OXE-PRO](https://github.com/hunteroxe1-ai/HUNTER-OXE-PRO) && cd HUNTER-OXE-PRO && chmod +x * && ./HUNTER~OXE.sh
+
+
+bash'
+
+
+
+
+⚡ QUICK LAUNCH
+No more long commands! After installation, simply type:
+
+Bash
+
+hunter
