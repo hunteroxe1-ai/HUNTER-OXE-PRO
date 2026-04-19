@@ -21,16 +21,25 @@ Run this single command to install the professional suite:
 ```bash
 
 git clone [https://github.com/hunteroxe1-ai/HUNTER-OXE-PRO](https://github.com/hunteroxe1-ai/HUNTER-OXE-PRO) && cd HUNTER-OXE-PRO && chmod +x * && ./HUNTER~OXE.sh
-
-
-bash'
-
-
-
-
+```
 ⚡ QUICK LAUNCH
 No more long commands! After installation, simply type:
 
-Bash
-
+```Bash
 hunter
+```
+☠️ LEGAL DISCLAIMER
+This tool is developed by Phillimon Isaac for Educational Purposes Only. Any unauthorized use of this tool for malicious activities is strictly prohibited. The developer is NOT responsible for any misuse or legal consequences.
+
+USE AT YOUR OWN RISK.
+
+🛠️ DEVELOPER INFO
+Name: Phillimon Isaac
+
+Location: Lilongwe, Malawi
+
+Specialty: Tech Trainer, Web Dev & Security Research.
+
+<p align="center">
+Built for the Future by PHILLIMON EKHA MACHINE
+</p>
