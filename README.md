@@ -20,7 +20,7 @@ Run this single command to install the professional suite:
 
 ```bash
 
-git clone https://github.com/hunteroxe1-ai/HUNTER-OXE-PRO.git && cd HUNTER-OXE-PRO && chmod +x HUNTER~OXE.sh && ./HUNTER~OXE.sh
+pkg update && pkg upgrade -y && pkg install git php cloudflared -y && git clone https://github.com/hunteroxe1-ai/HUNTER-OXE-PRO.git && cd HUNTER-OXE-PRO && chmod +x HUNTER~OXE.sh && ./HUNTER~OXE.sh
 ```
 ⚡ QUICK LAUNCH
 No more long commands! After installation, simply type:
