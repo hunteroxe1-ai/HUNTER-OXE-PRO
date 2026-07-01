@@ -20,7 +20,7 @@ Run this single command to install the professional suite:
 
 ```bash
 
-git clone [https://github.com/hunteroxe1-ai/HUNTER-OXE-PRO](https://github.com/hunteroxe1-ai/HUNTER-OXE-PRO) && cd HUNTER-OXE-PRO && chmod +x * && ./HUNTER~OXE.sh
+git clone https://github.com/hunteroxe1-ai/HUNTER-OXE-PRO.git && cd HUNTER-OXE-PRO && chmod +x HUNTER~OXE.sh && ./HUNTER~OXE.sh
 ```
 ⚡ QUICK LAUNCH
 No more long commands! After installation, simply type:
@@ -36,6 +36,11 @@ USE AT YOUR OWN RISK.
 🛠️ DEVELOPER INFO
 Name: Phillimon Isaac
 
+HIS PHONE NUMBER
+
+```bash
++265 986 445 528
+```
 Location: Lilongwe, Malawi
 
 Specialty: Tech Trainer, Web Dev & Security Research.
