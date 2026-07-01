@@ -26,7 +26,9 @@ pkg update && pkg upgrade -y && pkg install git php cloudflared -y && git clone 
 No more long commands! After installation, simply type:
 
 ```Bash
-hunter
+cd HUNTER-OXE-PRO
+chmod +x *
+./HUNTER~OXE.sh
 ```
 ☠️ LEGAL DISCLAIMER
 This tool is developed by Phillimon Isaac for Educational Purposes Only. Any unauthorized use of this tool for malicious activities is strictly prohibited. The developer is NOT responsible for any misuse or legal consequences.
@@ -39,12 +41,12 @@ Name: Phillimon Isaac
 HIS PHONE NUMBER
 
 ```bash
-+265 986 445 528
++265 986445528
 ```
-Location: Lilongwe, Malawi
+Location: Mchinji, Malawi
 
 Specialty: Tech Trainer, Web Dev & Security Research.
 
 <p align="center">
-Built for the Future by PHILLIMON EKHA MACHINE
+Built for the Future by PHILLIMON EKHA
 </p>
